@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="9"
+    android:rowCount="3"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:padding="3dp"
+        >
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:padding="3dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:30 - 9:10"
+            android:textSize="12dp"
+            android:layout_gravity="center|bottom"
+
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:padding="3dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9:15 - 9:55"
+            android:textSize="12dp"
+            android:layout_gravity="center|bottom"
+
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:padding="3dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:00 - 10:40"
+            android:textSize="12dp"
+            android:layout_gravity="center|bottom"
+
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:padding="3dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:45 - 11:25"
+            android:textSize="12dp"
+            android:layout_gravity="center|bottom"
+
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:padding="3dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11:30 - 12:10"
+            android:textSize="12dp"
+            android:layout_gravity="center|bottom"
+
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:padding="3dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:40 - 13:20"
+            android:textSize="12dp"
+            android:layout_gravity="center|bottom"
+
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:padding="3dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13:50 - 14:30"
+            android:textSize="12dp"
+            android:layout_gravity="center|bottom"
+
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:padding="3dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14:35 - 15:15"
+            android:textSize="12dp"
+            android:layout_gravity="center|bottom"
+
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_rowSpan="2"
+        android:layout_columnWeight="1"
+        android:padding="3dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DU"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="2"
+        android:padding="5dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Informartika"
+
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M.Mirgiyosov"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|left"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1-guruh"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_gravity="top|right"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="419"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|right"
+
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="2"
+        android:padding="5dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fizika"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X.Matchonov"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|left"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1-guruh"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_gravity="top|right"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="219"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|right"
+
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="2"
+        android:padding="5dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingliz tili"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sh.Ganiiyeva"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|left"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1-guruh"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_gravity="top|right"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="321"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|right"
+
+            />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_columnWeight="1"
+        android:layout_rowSpan="2"
+        android:padding="5dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adabiyot"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M.Xasanova"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|left"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1-guruh"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_gravity="top|right"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="316"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|right"
+
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_columnWeight="1"
+        android:layout_rowSpan="2"
+        android:padding="5dp"
+        >
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="2"
+        android:padding="5dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fizika"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X.Matchonov"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|left"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2-guruh"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_gravity="top|right"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="219"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|right"
+
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:padding="5dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Geometriya"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A.Xolmatov"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|left"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2-guruh"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_gravity="top|right"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="305"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|right"
+
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:padding="5dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rus tili"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M.Aripdjanova"
+            android:textSize="11dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|left"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2-guruh"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_gravity="top|right"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="426"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|right"
+
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="2"
+        android:padding="5dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Algebra"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A.Xolmatov"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|left"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2-guruh"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_gravity="top|right"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="307"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|right"
+
+            />
+    </FrameLayout>
+
+</GridLayout>
